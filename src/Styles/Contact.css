@@ -1,0 +1,244 @@
+.contact{
+     background-color: hsl(0, 0%, 7%);
+    color:#ffffff;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+.cnt-txt{
+    font-size: 8rem;
+    color:#ffffff;
+    padding: 80px;
+}
+.contant-box-txt{
+    font-size: 5rem;
+    padding: 80px;
+    letter-spacing: -3px;
+    padding-top: 0%;
+}
+.formContainer{
+    width: 900px;
+    padding-right: 40px;
+}
+.hello{
+    color:#ffffff;
+    font-size:1rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border: 1px solid #444;
+  border-radius: 999px;
+ margin-bottom: 10px;
+  font-style: italic;
+  
+ 
+ 
+  
+}
+
+
+.dot{
+    border-radius: 50%;
+    background-color:  #82ff1f;
+  width: 10px;
+  height: 10px;
+ 
+}
+.ct{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items:center;
+}
+.email{
+    background-color: #1a1a1a;
+   padding: 40px;
+   
+   border-radius: 20px;
+   border-color: #202020;
+   display: flex;
+    flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+        gap: 0px 0px;
+    row-gap: 0px;
+    column-gap: 0px;
+    border-style: solid;
+    border-style: solid
+ 
+   
+}
+.id{
+text-align: center;
+font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    margin-top: -4px;
+}
+.me{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 1.6em;
+}
+.info-cont{
+    padding: 80px;
+    display: flex;
+   align-items: center;
+   gap: 6rem;
+   justify-content: center;
+    
+}
+.social{
+    background-color: #1a1a1a;
+   padding: 40px;
+   align-items: center;
+   border-radius: 20px;
+   border-color: #202020;
+   display: flex;
+    flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+        gap: 0px 0px;
+    row-gap: 0px;
+    column-gap: 0px;
+    border-style: solid;
+    border-style: solid
+}
+.social ul{
+    margin-top: -4px;
+    display: flex; 
+    gap: 2rem;
+}
+/* Form container */
+form {
+   
+  
+    padding: 40px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+   
+    
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Make input fields full width */
+    padding: 10px; /* Padding inside input fields */
+    margin: 10px 0; /* Margin for spacing */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #242424; /* Darker background for input fields */
+    color: #ffffff; /* White text color */
+}
+
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder {
+    color: #aaaaaa; /* Light gray color for placeholders */
+}
+
+/* Labels styling */
+label {
+   
+    margin-top: 10px; /* Margin for spacing above labels */
+    display: block; /* Block display for labels */
+}
+
+/* Textarea styling */
+textarea {
+    min-height: 100px; /* Minimum height for text area */
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Button styling (if any) */
+button {
+    background-color: #82ff1f; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button font size */
+    margin-top: 10px; /* Margin above button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #68d80b; /* Darker shade on hover */
+}
+
+.req{
+    color: rgb(151, 27, 27);
+}
+
+.contact-box{
+    display: flex;
+   
+}
+
+@media (max-width:873px) {
+    .contact-box{
+        flex-direction: column;
+    }
+    .formContainer{
+        width: 80%;
+    }
+    .info-cont{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .cnt-txt{
+        font-size: 6rem;
+    }
+}
+@media (max-width:578px) {
+    .cnt-txt{
+        font-size: 4.2rem;
+    }
+    .contant-box-txt{
+        font-size: 3rem;
+    }
+    .contact-box{
+        margin-top: -40px;
+    }
+    .formContainer{
+        margin-top: -50px;
+    }
+    .info-cont{
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:468px) {
+    .social{
+        padding: 20px;
+    }
+    
+}
+
+@media (max-width:430px) {
+    .cnt-txt{
+        font-size: 3.5rem;
+        margin-left: -40px;
+    }
+    
+    .id{
+        font-size: 20px;
+    }
+    .contant-box-txt{
+        font-size: 2rem;
+    }
+    .contact-box{
+        margin-top: -60px;
+    }
+     .formContainer{
+        margin-top: -60px;
+    }
+}

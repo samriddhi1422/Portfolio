@@ -1,0 +1,157 @@
+.home{
+  background-color: hsl(0, 0%, 7%);
+    color:#ffffff;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    
+}
+.home1{
+  background-color: hsl(0, 0%, 7%);
+    color:#ffffff;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ 
+}
+.int{
+    color:#ffffff;
+    font-size: 8rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    line-height: 7rem;
+    
+   
+}
+.image img{
+    height: 500px;
+    margin-top: -140px;
+}
+.hello{
+    color:#ffffff;
+    font-size:1rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border: 1px solid #444;
+  border-radius: 999px;
+ margin-bottom: 10px;
+  font-style: italic;
+ 
+ 
+  
+}
+
+
+.dot{
+    border-radius: 50%;
+    background-color:  #82ff1f;
+  width: 10px;
+  height: 10px;
+ 
+}
+.para{
+    margin-top: -150px;
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding-bottom: 30px;
+}
+ .home-btn button{
+    background-color: #82ff1f;
+    color: #1a1a1a;
+    transition-duration: 0.2s;
+    border-radius: 50px;
+    padding: 14px 18px 14px 18px;
+    box-shadow: none;
+    border-color: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    
+ }
+ .home-btn{
+    display: flex;
+    margin: 15px;
+    gap: 2rem;
+ }
+
+ .home-btn a{
+  text-decoration: none;
+ }
+ .home-btn button:hover{
+    transform: scale(1.05);
+ }
+.block-para{
+    display: none;
+}
+ @media (max-width :1400px) {
+    .para{
+        margin-top: -50px;
+    }
+ }
+
+ @media (max-width:860px) {
+    .int{
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+    .image{
+        height: 450px;
+    }
+     .para{
+        margin-top: -130px;
+    }
+ }
+ 
+ /* Media Query for Responsive Design */
+@media (max-width: 568px) {
+  .int {
+    font-size: 3.6rem; /* Adjust font size for smaller screens */
+    line-height: 3rem; /* Adjust line height */
+  }
+.image img {
+    height: 300px; /* Adjust image height */
+    margin-top: -80px; /* Adjust margin for image */
+  }
+  .para {
+     padding-left: 20px;
+     margin-top: -50px;
+     font-size: 13px;
+    margin-top: -250px;
+    padding-bottom: 0px;
+  }
+  .show-para{
+    display: none;
+  }
+  .block-para{
+    display: block;
+  }
+  .home-btn {
+   gap:1rem;
+  }
+  .home-btn button {
+  padding: 10px 14px 10px 14px;
+  }
+}
+
+@media (max-width:430px) {
+    .int {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    line-height: 2rem; /* Adjust line height */
+  }
+.image img {
+    height: 200px; /* Adjust image height */
+    margin-top: -50px; /* Adjust margin for image */
+  }
+  .para{
+    margin-top: -300px;
+    font-size: 12px;
+  }
+   .home-btn button {
+  padding: 8px 12px 8px 12px;
+  }
+}

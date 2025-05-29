@@ -1,0 +1,145 @@
+.container {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      
+      justify-content: center;
+     
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+        
+   background-color: hsl(0, 0%, 7%);
+   padding-bottom: 40px;
+    }
+    .service{
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+        
+   background-color: hsl(0, 0%, 7%);
+    }
+.serv-txt{
+    font-size: 6rem;
+    color:#ffffff;
+    padding: 60px 20px 60px 100px;
+    margin-top: -50px;
+}
+    .card {
+      border-radius: 1.5rem;
+      padding: 2rem;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      line-height: 1.5rem;
+      padding-bottom: 60px;
+    }
+
+    .web-design {
+      background-color: #82ff1f;
+      color: #1a1a1a;
+    }
+
+    .development {
+      background-color: #1a1a1a;
+      color: #ffffff;
+    }
+
+    .brand-identity {
+      background-color: #f8f8f8;
+      color: #1a1a1a;
+    }
+
+    .icon {
+      margin-bottom: 1rem;
+      
+    }
+
+    .card h2 {
+      font-size: 1.7rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .features {
+      flex-grow: 1;
+    }
+
+    .features div {
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      font-size: 0.95rem;
+    }
+
+    .development .features div,
+    .brand-identity .features div {
+      border-color: rgba(56, 54, 54, 0.2);
+    }
+
+    .button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #c9ff90;
+      border-radius: 1.5rem;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      color: #2f2f2f;
+    }
+    .card button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.hello{
+    color:#ffffff;
+    font-size:1rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #444;
+  border-radius: 999px;
+ margin-bottom: 10px;
+  font-style: italic;
+  margin-top: 40px;
+  margin-left: 100px;
+ 
+ 
+ 
+  
+}
+
+
+.dot{
+    border-radius: 50%;
+    background-color:  #82ff1f;
+  width: 10px;
+  height: 10px;
+ 
+}
+
+
+    @media (max-width:673px) {
+        .serv-txt{
+            font-size: 5rem;
+        }
+        
+    }
+    @media (max-width:548px) {
+        .serv-txt{
+            font-size: 4rem;
+            margin-left: -60px;
+        }
+        
+    }
+    @media (max-width:400px) {
+        .card{
+            width: 250px;
+        }
+        .serv-txt{
+            font-size: 3.5rem;
+        }
+    }

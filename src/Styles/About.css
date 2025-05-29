@@ -1,0 +1,179 @@
+.about{
+    background-color: #f8f8f8;
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+.abt{
+   background-color: hsl(0, 0%, 7%);
+   display: flex;
+   align-items: center;
+   
+}
+img{
+    height: 450px;
+}
+.abt1{
+   background-color: hsl(0, 0%, 7%);
+   padding: 80px;
+}
+.abt-txt{
+    font-size: 6rem;
+    color:#ffffff;
+   
+}
+.intro{
+     color:#ffffff;
+     line-height: 1.2rem;
+     font-size: 14px;
+     
+}
+.abt-btn button{
+    background-color: #82ff1f;
+    color: #1a1a1a;
+    transition-duration: 0.2s;
+    border-radius: 50px;
+    padding: 14px 18px 14px 18px;
+    box-shadow: none;
+    border-color: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.skills{
+    background-color: #f8f8f8;
+    padding: 80px;
+}
+.skl-txt {
+   font-size: 5rem;
+    color:#1a1a1a;
+    margin-bottom: 30px;
+    letter-spacing: -4px;
+    
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.skl{
+       background-color:#ffffff;
+       color: #1a1a1a;
+    font-size:1.2rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border: 1px solid #444;
+  border-radius: 999px;
+ margin-bottom: 10px;
+  font-style: italic;
+  transition: transform 0.3s ease;
+}
+.skl:hover{
+    transform: translateY(1.5px);
+    
+}
+.dot{
+    border-radius: 50%;
+    background-color:  #82ff1f;
+  width: 10px;
+  height: 10px;
+}
+
+.exp{
+     padding: 0px 80px 40px  80px;
+}
+.exp-txt {
+   font-size: 5rem;
+    color:#1a1a1a;
+    margin-bottom: 30px;
+    letter-spacing: -4px;
+    
+}
+.exp-detail{
+  background-color: #ffffff;
+    
+    padding: 30px ;
+    border-radius: 20px ;
+    box-shadow: 0px 20px 62px 0px rgba(46.99999999999997, 46.99999999999997, 46.99999999999997, 0.06);
+    border-left:2px solid black ;
+    font-size: 15px;
+    line-height: 1.5rem;
+      
+
+}
+.exp-btn button{
+    background-color: #82ff1f;
+    color: #1a1a1a;
+    transition-duration: 0.2s;
+    border-radius: 50px;
+    padding: 14px 18px 14px 18px;
+    box-shadow: none;
+    border-color: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.8rem;
+    margin: 30px;
+}
+.exp-btn button a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+@media (max-width:1106px) {
+
+    .abt-2 img{
+    height: 300px;
+}
+}
+@media (max-width:924px) {
+
+    .abt-txt{
+    font-size: 4.5rem;
+    color:#ffffff;
+   
+}
+
+}
+@media (max-width:825px) {
+
+    .abt-txt{
+    font-size: 3rem;
+    color:#ffffff;
+   
+}
+ .abt-2 img{
+    height: 250px;
+}
+.intro{
+     color:#ffffff;
+     line-height: 1.2rem;
+     font-size: 12px;
+     
+}
+
+}
+
+@media (max-width:748px) {
+
+   .abt{
+    flex-direction:column;
+   }
+   .abt-2 img{
+    display: none;
+   }
+}
+@media (max-width:568px) {
+    .exp-txt{
+        font-size: 3rem;
+    }
+    .skl-txt{
+        font-size: 3rem;
+    }
+    
+}
