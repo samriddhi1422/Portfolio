@@ -28,8 +28,8 @@ export default function Main(){
 }
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
+    
     <Main></Main>
-    </HashRouter>
+  
   </StrictMode>,
 )
