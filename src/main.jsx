@@ -13,7 +13,7 @@ import Layout from './Layout.jsx'
 
 export default function Main(){
   return(
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter>
     <Routes>
     <Route path='' element={<Layout/>}>
     <Route path='/' element= {<Home/>}></Route>

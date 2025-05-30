@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/Home.css'
 import frame from '../assets/Frame (1).png'
+
 import { BsArrowReturnRight } from "react-icons/bs";
 function Home() {
   return (

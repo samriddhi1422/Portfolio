@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Project.css'
 import { useState } from 'react'
-import { Project } from '../Project'
+import { Project } from './Project';
 import { BsArrowReturnRight } from "react-icons/bs";
 const categories =["all","dev","blog","UI"];
 function Projects() {
