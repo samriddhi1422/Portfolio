@@ -20,11 +20,11 @@ function Service() {
     <div class="card web-design">
       <div class="icon"><SiBlackmagicdesign size={35}/></div>
       <h2>Web Design</h2>
-      <p>Creating visually stunning and user-friendly websites is at the heart of what I do.</p>
+      <p>Creating visually stunning and user-friendly websites isn’t just what I do — it’s what I love.</p>
       <div class="features">
         <div>Custom Tailored Design</div>
         <div>Responsive Layouts</div>
-        <div>Custom Tailored Design</div>
+        <div>Prototype & Wireframing</div>
       </div>
        <NavLink to="/projects"><button class="button"><BsArrowReturnRight size={20}/> Check Projects</button></NavLink>
     </div>
@@ -32,7 +32,7 @@ function Service() {
     <div class="card development">
       <div class="icon"><FaConnectdevelop size={35}/></div>
       <h2>Development</h2>
-      <p>I bring your designs to life with clean, efficient, and high-performing code.</p>
+      <p>I bring your designs to life with clean, efficient, and high-performing code. Creating websites is more than a skill—it's something truly close to my heart.</p>
       <div class="features">
         <div>ReactJs & CSS Expertise</div>
         <div>Cross-Browser Compatibility</div>
@@ -45,7 +45,7 @@ function Service() {
     <div class="card brand-identity">
       <div class="icon"><TbWriting size={35}/></div>
       <h2>Blog Writing</h2>
-      <p>Crafting compelling, SEO-optimized blog posts that drive traffic and engage your audience.</p>
+      <p>I craft compelling, SEO-optimized blog posts that drive traffic and engage your audience — written straight from the heart..</p>
       <div class="features">
         <div>blogs on self love, Productivity & Growth</div>
         <div>Audience-Centric Content</div>
